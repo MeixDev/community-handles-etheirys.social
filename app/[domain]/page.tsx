@@ -69,6 +69,7 @@ export default async function IndexPage({
               throw new Error("slur")
             }
 
+            //TODO: I probably can throw this away
             if (domain === "army.social" && RESERVED.includes(handle)) {
               throw new Error("reserved")
             }
@@ -114,7 +115,9 @@ export default async function IndexPage({
           handle for Bluesky
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
-          Follow the instructions below to get your own {domain} handle
+          Follow the instructions below to get your own {domain} handle<br />
+          {/* TODO: Update this desc for other domains */}
+          (This group is mainly intended for FFXIV players)
         </p>
       </div>
       <div>
@@ -135,7 +138,8 @@ export default async function IndexPage({
                 <Button type="submit">Submit</Button>
               </div>
               <p className="text-sm text-muted-foreground">
-                Enter your current handle, not including the @
+                Enter your current handle, not including the @<br />
+                Please note that your handle is case-sensitive!
               </p>
               {error1 && (
                 <p className="flex flex-row items-center gap-2 text-sm text-red-500">
@@ -168,7 +172,8 @@ export default async function IndexPage({
               </div>
               <p className="text-sm text-muted-foreground">
                 Enter the {domain} handle that you would like to have, not
-                including the @
+                including the @<br />
+                This new handle can only contain letters, numbers and hypens, and end with .{domain}
               </p>
               {error2 && (
                 <p className="text-sm text-red-500">
@@ -203,9 +208,16 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
           <p className="mt-6 max-w-lg text-sm">
+            If you would like to see more of those and keep {domain} running, consider {" "}
+            <a href="https://ko-fi.com/meixdev" className="underline">
+              buying me (Meï) a coffee!
+            </a>
+            .
+          </p>
+          <p className="mt-6 max-w-lg text-sm">
             If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
+              sponsoring mozzius/Samuel's work
             </a>
             .
           </p>
@@ -215,48 +227,10 @@ export default async function IndexPage({
   )
 }
 
+// Just don't be dumb and use stupid names idk..
 const RESERVED = [
-  "Jungkook",
-  "JeonJungkook",
-  "Jeon",
-  "JK",
-  "JJK",
-  "Kim",
-  "KimTaehyung",
-  "V",
-  "Taehyung",
-  "Tae",
-  "Jin",
-  "Seokjin",
-  "KimSeokjin",
-  "RM",
-  "Namjoon",
-  "Nam",
-  "KimNamjoon",
-  "MinYoongi",
-  "Yoongi",
-  "Yoon",
-  "AgustD",
-  "MYG",
-  "Suga",
-  "PJM",
-  "Jimin",
-  "ParkJimin",
-  "Park",
-  "Abcdefghi__lmnopqrsvuxyz",
-  "JM",
-  "UarMyHope",
-  "Rkrive",
-  "THV",
-  "KTH",
-  "SBT",
-  "BANGPD",
-  "projeto",
-  "army",
-  "armys ",
-  "info",
-  "projects",
-  "Pic",
-  "New",
-  "Babys",
+  "admin",
+  "administrator",
+  "mod",
+  "moderator",
 ].map((x) => x.toLowerCase())

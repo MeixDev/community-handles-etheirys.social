@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   mainNav: [
     {
-      title: "Join the community",
+      title: "Get your Eorzean handle",
       href: "/",
     },
     {
@@ -11,8 +11,8 @@ export const siteConfig = {
       href: "/community",
     },
     {
-      title: "Create your own community handle",
-      href: "/create-your-own",
+      title: "FAQ",
+      href: "/faq",
     },
   ],
   links: {

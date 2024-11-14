@@ -16,7 +16,6 @@
     "postinstall": "prisma generate",
     "studio": "prisma studio",
     "export": "tsx prisma/export.ts"
-
   },
   "dependencies": {
     "@atproto/api": "^0.12.29",
