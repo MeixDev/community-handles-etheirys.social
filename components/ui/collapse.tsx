@@ -31,7 +31,7 @@ const CollapseItem: FC<CollapseItemProp> = ({
         >
             <div
                 onClick={onToggle}
-                className={`ff-collapse-title flex cursor-pointer items-center justify-between py-4 transition-all hover:text-red-700 dark:hover:text-yellow-300 ${isOpen ? "active text-red-700 dark:text-yellow-300" : ""}`}
+                className={`ff-collapse-title flex cursor-pointer items-center justify-between py-4 transition-all hover:text-purple-500 dark:hover:text-purple-500 ${isOpen ? "active text-purple-500 dark:text-purple-500" : ""}`}
             >
                 <span>{title}</span>
                 <svg
