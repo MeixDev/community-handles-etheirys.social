@@ -51,7 +51,7 @@ export default function CommunityPage() {
                                     </p>
                                     <p>
                                         If the BlueSky are experiencing high demand and issues (as they are
-                                        as I'm writing this), you may need to try again later.
+                                        as I&apos;m writing this), you may need to try again later.
                                     </p>
                                 </div>
                             ),
@@ -81,7 +81,7 @@ export default function CommunityPage() {
                             content: (
                                 <div>
                                     <p className="mb-2">
-                                        I have absolutely no idea so let's try to make this not happen.~
+                                        I have absolutely no idea so let&apos;s try to make this not happen.~
                                     </p>
                                 </div>
                             ),
@@ -104,7 +104,7 @@ export default function CommunityPage() {
                                         do use his project, consider sponsoring him!
                                     </p>
                                     <a href="/create-your-own" className="underline">
-                                        Original "Create your own handle" page
+                                        Original &quot;Create your own handle&quot; page
                                     </a>
                                 </div>
                             ),

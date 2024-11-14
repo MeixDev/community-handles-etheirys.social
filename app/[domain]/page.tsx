@@ -217,7 +217,7 @@ export default async function IndexPage({
           <p className="mt-6 max-w-lg text-sm">
             If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring mozzius/Samuel's work
+              sponsoring mozzius/Samuel&apos;s work
             </a>
             .
           </p>
