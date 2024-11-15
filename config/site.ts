@@ -14,6 +14,10 @@ export const siteConfig = {
       title: "FAQ",
       href: "/faq",
     },
+    {
+      title: "FFXIV Labeler",
+      href: "/ffxiv-labeler",
+    }
   ],
   links: {
     github: "https://github.com/mozzius/community-handles",
