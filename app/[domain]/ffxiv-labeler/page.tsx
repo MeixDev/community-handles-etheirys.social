@@ -52,7 +52,7 @@ export default function CommunityPage() {
                     </p>
                     <p className="mt-4 max-w-lg">
                         For jobs, you use the 3-letter abbreviations, and for worlds, the full name (Without Data Centers),
-                        each separated by a space.
+                        each separated by a space. You can add multiple jobs in a single post!
                     </p>
                     <p className="mt-4 max-w-lg">
                         If you want to remove badges, do the same post, but using &quot;remove badge&quot; instead of &quot;add badge&quot;.
