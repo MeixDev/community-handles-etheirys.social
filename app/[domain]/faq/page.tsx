@@ -62,10 +62,10 @@ export default function CommunityPage() {
                                 <div>
                                     <p className="mb-2">
                                         This project is open-source, and you can check the repository <a
-                                            href="https://github.com/ChrisRid/community-handles"
+                                            href="https://github.com/MeixDev/community-handles-etheirys.social"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="hover:underline"
+                                            className="underline"
                                         >at this address</a>
                                     </p>
                                     <p className="mb-2">
@@ -99,7 +99,7 @@ export default function CommunityPage() {
                                             href="https://github.com/mozzius/community-handles"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="hover:underline"
+                                            className="underline"
                                         >GitHub</a> for more information, and if you
                                         do use his project, consider sponsoring him!
                                     </p>
